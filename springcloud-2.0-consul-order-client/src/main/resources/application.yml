@@ -1,0 +1,15 @@
+###eureka 服务端口号
+server:
+  port: 8512
+spring:
+  application:
+    name: consul-order
+####consul注册中心地址
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+      #服务地址在注册中心上显示随机生成的英文，类似:PC-20180401JLVY;这里可以显示指定为IP(必须是本机IP)即将别名显式指定为固定IP
+        hostname: 127.0.0.1
+        serviceName: service-order

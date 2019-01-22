@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-2.0-consul-member-client/springcloud-2.0-consul-member-client.iml" filepath="$PROJECT_DIR$/springcloud-2.0-consul-member-client/springcloud-2.0-consul-member-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-2.0-consul-order-client/springcloud-2.0-consul-order-client.iml" filepath="$PROJECT_DIR$/springcloud-2.0-consul-order-client/springcloud-2.0-consul-order-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud_consul.iml" filepath="$PROJECT_DIR$/.idea/springcloud_consul.iml" />
+    </modules>
+  </component>
+</project>
