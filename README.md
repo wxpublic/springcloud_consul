@@ -5,8 +5,10 @@
 # 获取服务生产者实例：
 @Autowired
 DiscoveryClient discoveryClient;
+
 @Autowired
 private RestTemplate restTemplate;
+
 @Autowired
 private LoadBalancerClient loadBalancer;
     
